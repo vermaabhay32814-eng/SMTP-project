@@ -8,7 +8,7 @@ from google.genai import types
 from prompts import SYSTEM_PROMPT, WELCOME_MESSAGE_TEMPLATE, SUMMARY_REQUEST_PROMPT
 
 # --- config ---
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-3.5-flash"
 
 st.set_page_config(page_title="MacroSnap", page_icon="🥗", layout="centered")
 
